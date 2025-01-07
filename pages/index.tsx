@@ -1,7 +1,8 @@
-// Global Style
+// import style just for this page
+import styles from "../styles/globals.module.css";
 
 function Headings(props) {
-  return <h1 className="orange-heading">{props.heading}</h1>;
+  return <h1 className={styles.orangeHeading}>{props.heading}</h1>;
 }
 
 // this page acccessable at http://localhost:3000/
