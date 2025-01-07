@@ -28,8 +28,8 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
   //res.statusCode = 404;
 
   // got to localhost:3000/api/random-numbers and you will send "how are you ?" to the browser
-  // it similar to res.send("how are you ?") but it end the response
-  //res.end("how are you ?");
+  // it similar to res.send("how are you ?") but it end the
+  res.end("how are you ?");
 
   // got to localhost:3000/api/random-numbers and you will send "Hello World" to the browser
   res.send("Hello World");
