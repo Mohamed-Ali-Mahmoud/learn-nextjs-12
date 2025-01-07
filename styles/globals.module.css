@@ -1,0 +1,9 @@
+/* 
+  This file ti can be any name
+  import this file in _app.js
+  if you need to use global styles in index.tsx or any other component use it as module
+  so rename this file from globals.css to globals.module.css
+*/
+.orangeHeading {
+  color: orange;
+}
