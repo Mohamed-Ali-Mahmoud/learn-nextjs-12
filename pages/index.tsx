@@ -22,8 +22,21 @@ export default function Home() {
             to fix this issue i used legacyBehavior
             this link didn't make a reload of the page 
           */}
+          {/* 
+              mohamed is the folder name
+              activities is the file name
+          */}
+          <Link href="mohamed/activities" legacyBehavior>
+            <a>My Activities</a>
+          </Link>
+          <br />
+          {/* 
+
+              /mohamed is the folder name that render the index.tsx file automatically
+          
+          */}
           <Link href="/mohamed" legacyBehavior>
-            <a>My Blog</a>
+            <a>Mohamed Page</a>
           </Link>
         </h1>
 
